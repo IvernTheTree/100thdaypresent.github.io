@@ -113,12 +113,13 @@ html,body{
     z-index: 2;
     position: absolute;
     top: 285px;
-    left: 250px;
+    left: 220px;
     width: 120%;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 1px;
     font-size: 15px;
     transform: scale(1, 0.9);
