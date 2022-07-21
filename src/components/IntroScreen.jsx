@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
           <section class="wrap">
           <Helmet>
-              <script type="module" src="/script.jsx"></script>
+              <script type="module" src="/src/components/script.jsx"></script>
             </Helmet>
             <Link to="/music">
                 <button class="button">Start Listening</button>
@@ -61,4 +61,5 @@ const Hero = () => {
       </div> 
     )
 }
+
 export default Hero
