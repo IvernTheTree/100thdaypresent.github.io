@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="titleContainer">
           <img className="heroLogo" src={logo} alt="" />
           <h1 className="tracking-in-expand-fwd">StudyBeats</h1>
-          <h3 className="subTitle"> I love you </h3>
+          <h3 className="subTitle"> An Online Music Player </h3>
           <div class="note-position-1 note-amination">&#9835;</div>
           <div class="note-position-2 note-amination animation-delay-2">
             &#9833;
@@ -35,13 +35,11 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-
           <div class="wrap">
-          <Link to="/music">
-                  <button onClick="passCheck()" class="button">Start Listening</button>
-              </Link>
-              </div>
-
+            <Link to="/music">
+                <button class="button">Start Listening</button>
+            </Link>         
+          </div>
         </div>
         <ReactPlayer 
               className="react-player"
@@ -56,7 +54,6 @@ const Hero = () => {
               loop={true}
             />
       </div>
-
     )
 }
 
