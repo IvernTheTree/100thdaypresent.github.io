@@ -37,10 +37,7 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <div class="passwordWrap">
-            <label for="pass">Mật Khẩu</label>
-            <input type="text" name="" id="pass" placeholder="Tụi Mình Chính Thức Khi Nào?" required maxLength="6"></input>
-          </div>
+
           <div class="wrap">
           <Link to="/music">
                   <button onClick="passCheck()" class="button">Start Listening</button>
