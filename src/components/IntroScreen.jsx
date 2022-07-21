@@ -25,7 +25,9 @@ const Hero = () => {
         <div className="titleContainer">
           <img className="heroLogo" src={logo} alt="" />
           <h1 className="tracking-in-expand-fwd">StudyBeats</h1>
-          <h3 className="subTitle"> Món quà dành cho em </h3>
+          <h3 className="subTitle"> Món quà dành cho thiên thần của anh </h3>
+          <br></br>
+          <h3 className="subTitle"> Nguyễn Ngọc Minh Phương </h3>
           <div class="note-position-1 note-amination">&#9835;</div>
           <div class="note-position-2 note-amination animation-delay-2">
             &#9833;
