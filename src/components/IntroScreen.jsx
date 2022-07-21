@@ -26,8 +26,6 @@ const Hero = () => {
           <img className="heroLogo" src={logo} alt="" />
           <h1 className="tracking-in-expand-fwd">StudyBeats</h1>
           <h2 className="subTitle"> For miss Ivy Nguyễn</h2>
-          <br></br>
-          <h3 className="subTitle"> Món quà dành tặng cho em </h3>
           <div class="note-position-1 note-amination">&#9835;</div>
           <div class="note-position-2 note-amination animation-delay-2">
             &#9833;
