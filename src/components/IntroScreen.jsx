@@ -37,14 +37,18 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <form onSubmit="return passCheck()">
+
           <div class="passwordWrap">
             <label for="pass">Mật Khẩu</label>
             <input type="text" name="" id="pass" placeholder="Tụi Mình Chính Thức Khi Nào?" required maxLength="6"></input>
             <div id="errors"></div>
           </div>
-          <input type="submit"></input>
-          </form>
+          <div class="wrap">
+          <Link to="/music">
+                  <button onClick="passCheck()" class="button">Start Listening</button>
+              </Link>
+              </div>
+
         </div>
         <ReactPlayer 
               className="react-player"
@@ -59,19 +63,7 @@ const Hero = () => {
               loop={true}
             />
       </div>
-          function passCheck() {
-            var password ="123456";
-            if(document.getElementById('pass1').value != password){
-              var wrong = "Đừng nói cô nương quên ngày r nha, tét đít á!";
-              document.getElementById('errors').innerHTML = wrong;
-            }else{
-              <div class="wrap">
-              <Link to="/music">
-                  <button onClick="passCheck()" class="button">Start Listening</button>
-              </Link>         
-            </div>
-            }
-          }
+
     )
 }
 
