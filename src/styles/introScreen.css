@@ -209,7 +209,32 @@ html,body{
     justify-content: center;
     z-index: 20;
   }
-  
+  .passwordWrap{
+    min-width: 300px;
+    min-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: none;  /* fallback for old browsers */
+    border: 1px solid white;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(224, 224, 224, 0.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    left: 75%;
+    top: 4%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
   .button {
     min-width: 300px;
     min-height: 50px;
