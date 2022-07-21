@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const Hero = () => {
     return(
@@ -35,11 +36,14 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <div class="wrap">
+          <section class="wrap">
+          <Helmet>
+              <script type="module" src="/script.jsx"></script>
+            </Helmet>
             <Link to="/music">
                 <button class="button">Start Listening</button>
             </Link>         
-          </div>
+          </section>
         </div>
         <ReactPlayer 
               className="react-player"
@@ -53,8 +57,8 @@ const Hero = () => {
               playing={true}
               loop={true}
             />
-      </div>
+
+      </div> 
     )
 }
-
 export default Hero

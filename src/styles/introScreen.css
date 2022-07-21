@@ -211,7 +211,9 @@ html,body{
     justify-content: center;
     z-index: 20;
   }
-  
+  .hide {
+    display: none;
+  }
   .button {
     min-width: 300px;
     min-height: 50px;
