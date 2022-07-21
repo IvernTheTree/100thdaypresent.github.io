@@ -25,7 +25,9 @@ const Hero = () => {
         <div className="titleContainer">
           <img className="heroLogo" src={logo} alt="" />
           <h1 className="tracking-in-expand-fwd">StudyBeats</h1>
-          <h3 className="subTitle"> An Online Music Player </h3>
+          <h2 className="subTitle"> For miss Ivy Nguyễn</h2>
+          <br></br>
+          <h3 className="subTitle"> Món quà dành tặng cho em </h3>
           <div class="note-position-1 note-amination">&#9835;</div>
           <div class="note-position-2 note-amination animation-delay-2">
             &#9833;
@@ -35,11 +37,14 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <div class="wrap">
-            <Link to="/music">
-                <button class="button">Start Listening</button>
-            </Link>         
+          <form onSubmit="return passCheck()">
+          <div class="passwordWrap">
+            <label for="pass">Mật Khẩu</label>
+            <input type="text" name="" id="pass" placeholder="Tụi Mình Chính Thức Khi Nào?" required maxLength="6"></input>
+            <div id="errors"></div>
           </div>
+          <input type="submit"></input>
+          </form>
         </div>
         <ReactPlayer 
               className="react-player"
@@ -54,6 +59,19 @@ const Hero = () => {
               loop={true}
             />
       </div>
+          function passCheck() {
+            var password ="123456";
+            if(document.getElementById('pass1').value != password){
+              var wrong = "Đừng nói cô nương quên ngày r nha, tét đít á!";
+              document.getElementById('errors').innerHTML = wrong;
+            }else{
+              <div class="wrap">
+              <Link to="/music">
+                  <button onClick="passCheck()" class="button">Start Listening</button>
+              </Link>         
+            </div>
+            }
+          }
     )
 }
 
