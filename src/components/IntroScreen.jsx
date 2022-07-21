@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
           <section class="wrap">
           <Helmet>
-              <script type="module" src="./script.jsx"></script>
+              <script type="module" src="./script.jsx" async></script>
             </Helmet>
             <Link to="/music">
                 <button class="button">Start Listening</button>
