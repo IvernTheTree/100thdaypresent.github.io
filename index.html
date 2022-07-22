@@ -18,7 +18,11 @@
     <script type="module" src="/src/main.jsx"></script>
     <script> 
     function alertHello(){
+    let websiteButton = document.querySelector(".wrap")
+    function showHideButton(){
       alert ('hello');
+      websiteButton.classList.toggle("hide");
+    }
     }
     </script>
   </body>
