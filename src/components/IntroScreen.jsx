@@ -8,7 +8,6 @@ import FormInput from "./FormInput";
 const Hero = () => {
     const[values,setValues] = useState({
       password:"",
-      pass:"",
     });
     const inputs = [
       {
@@ -26,9 +25,9 @@ const Hero = () => {
 
     const onChange = (e) => {
       setValues({ ...values,[e.target.name]: e.target.value });
+      console.log(e.target.value);
     };
-    console.log(values);
-    alert (values);
+
     return(
         <div>
         <div className="heroContainer">
