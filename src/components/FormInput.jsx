@@ -9,6 +9,7 @@ const FormInput = (props) => {
     };
     function checking(){
     alert ('hello')
+    
     }
     function showHideButton(){
         websiteButton = document.querySelector(".wrap");
