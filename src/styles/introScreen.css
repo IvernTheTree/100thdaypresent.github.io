@@ -408,15 +408,15 @@ input{
   outline: none;
   position: relative;
   padding: 10px;
-  left: 75%;
-  top: 4%;
+  top: 155px;
+  left: 195px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 15px;
 }
-.input{
+.form{
   -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
   animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
 }
