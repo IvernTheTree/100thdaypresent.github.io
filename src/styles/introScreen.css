@@ -408,7 +408,7 @@ input{
   outline: none;
   position: absolute;
   padding: 10px;
-  top: 350px;
+  top: 400px;
   left: 230px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -419,9 +419,6 @@ input{
   input {
     -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
             animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
-}
-input::placeholder {
-  color: ghostwhite;
 }
 span{
   font-size: 20px;
