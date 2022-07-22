@@ -25,7 +25,6 @@ const Hero = () => {
 
     const onChange = (e) => {
       setValues({ ...values,[e.target.name]: e.target.value });
-      console.log(e.target.value);
     };
 
     return(

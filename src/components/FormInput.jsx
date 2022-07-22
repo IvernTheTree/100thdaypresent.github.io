@@ -7,10 +7,10 @@ const FormInput = (props) => {
     const handleFocus = (e) => {
         setFocused(true);
     };
-    function checking(){
+    const checking =(e) =>{
     alert ('hello')
-    
-    }
+    console.log(e.target.value);
+    };
     function showHideButton(){
         websiteButton = document.querySelector(".wrap");
         websiteButton.classList.remove("hide");
