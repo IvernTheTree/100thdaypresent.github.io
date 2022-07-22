@@ -9,7 +9,6 @@ const Hero = () => {
     return(
         <div>
         <div className="heroContainer">
-          <button onClick={window['alertHello']}>alert</button>
           <div className="videoContainer2">
             <ReactPlayer
               className="react-player"
@@ -38,6 +37,7 @@ const Hero = () => {
             <div className="bubble3"></div>
           </div>
           <section class="wrap">
+          <button onClick={window['alertHello']}>alert</button>
             <Link to="/music">
                 <button class="button">Start Listening</button>
             </Link>         
