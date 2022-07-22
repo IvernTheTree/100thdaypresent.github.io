@@ -424,6 +424,10 @@ span{
   font-size: 20px;
   padding: 3px;
   color: #f7cac9;
+  font-family: 'Montserrat', sans-serif;
+  top: 450px;
+  left: 230px;
+  position: absolute;
   display: none;
 }
 input:invalid[focused="true"] ~ span{
