@@ -10,7 +10,8 @@ const FormInput = (props) => {
     const checking =(e) =>{
     var check = e.target.value;
     if (check == 160422){
-        websiteButton = document.querySelector(".wrap");
+        alert ('Chờ một chút món quà sẽ xuất hiện')
+        var websiteButton = document.querySelector(".wrap");
         websiteButton.classList.remove("hide");
     }   
     };

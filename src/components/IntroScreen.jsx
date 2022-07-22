@@ -64,7 +64,7 @@ const Hero = () => {
           </form>
           <section class="wrap">
             <Link to="/music">
-                <button class="button">Start Listening</button>
+                <button class="button">Bấm vào đây</button>
             </Link>         
           </section>
         </div>
