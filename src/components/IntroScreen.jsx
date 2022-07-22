@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
           <section class="wrap">
           <Helmet>
-              <script src="c:/Users/WELCOME/Documents/GitHub/100thDayPresent/src/components/script.jsx" async></script>
+              <script src="script.jsx" async></script>
             </Helmet>
             <Link to="/music">
                 <button class="button">Start Listening</button>
