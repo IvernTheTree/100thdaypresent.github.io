@@ -3,13 +3,12 @@ import ReactPlayer from "react-player";
 import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
-import { Suspense } from "react";
-
+import showHideButton from "./passwordScript";
 
 const Hero = () => {
     return(
         <div>
-        <div className="heroContainer">
+        <div className="heroContainer" onLoad={window['showHideButton']}>
           <div className="videoContainer2">
             <ReactPlayer
               className="react-player"
@@ -55,7 +54,6 @@ const Hero = () => {
               playing={true}
               loop={true}
             />
-
       </div> 
     )
 }
