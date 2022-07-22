@@ -390,7 +390,7 @@ html,body{
       transform: scale(1);
     }
   }
-.input{
+input{
   min-width: 300px;
   min-height: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -416,7 +416,7 @@ html,body{
   letter-spacing: 1px;
   font-size: 15px;
 }
-input::before {
+.input::before {
   content: '';
     border-radius: 1000px;
     min-width: calc(300px + 12px);
@@ -431,7 +431,7 @@ input::before {
     transition: all .3s ease-in-out 0s;
     z-index: -2;
   }
-  input::after {
+  .input::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -444,11 +444,11 @@ input::before {
     animation: ring 1.5s infinite;
   }
   
-  input:hover::after, input:focus::after {
+  .input:hover::after, input:focus::after {
     cursor:none;
     pointer-events: none;
   }
-  .input {
+  input {
     -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
             animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
 }
