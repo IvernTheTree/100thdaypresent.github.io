@@ -20,13 +20,19 @@
     function alertHello(){
       alert ('hello')
       var websiteButton = document.querySelector(".wrap");
-      var isShow = true;
+      var isShow = false;
       websiteButton.classList.add("hide", isShow);
   }
   function showHideButton(){
-      isShow =! isShow;
-      websiteButton.classList.toggle("hide", isShow);
+      alert ('hello');
+      if (isShow = false){
+      isShow = true;
+      websiteButton.classList.remove("hide");
+    }else{
+      isShow = false;
+      websiteButton.classList.add("hide");
     }
+  }
     </script>
   </body>
 </html>
