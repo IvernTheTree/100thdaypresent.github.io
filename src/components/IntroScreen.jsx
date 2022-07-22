@@ -3,17 +3,12 @@ import ReactPlayer from "react-player";
 import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
+import { Suspense } from "react";
 
-
-let websiteButton = document.querySelector(".wrap")
-const showHideButton = () => {
-    websiteButton.classList.toggle("hide");
-    alert ("hello world")
-}
-    
 
 const Hero = () => {
-    return(
+  const Hero2 = () =>{
+    return Hero2(
         <div>
         <div className="heroContainer">
           <div className="videoContainer2">
@@ -43,11 +38,7 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <section class="wrap">
-            <Link to="/music">
-                <button class="button">Start Listening</button>
-            </Link>         
-          </section>
+
         </div>
         <ReactPlayer 
               className="react-player"
@@ -61,9 +52,18 @@ const Hero = () => {
               playing={true}
               loop={true}
             />
-
       </div> 
     )
+  }  
+  return Hero(
+    <div className="titleContainer">
+    <section class="wrap">
+    <Link to="/music">
+        <button class="button">Start Listening</button>
+    </Link>         
+  </section>
+  </div>
+  )
 }
 
 export default Hero
