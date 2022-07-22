@@ -390,11 +390,33 @@ html,body{
       transform: scale(1);
     }
   }
+input{
+  min-width: 300px;
+  min-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: none;  /* fallback for old browsers */
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 12px 12px 24px rgba(224, 224, 224, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  top: 355px;
+  left: 230px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 15px;
+} 
 
-  input {
-    -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
-            animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000)4.7s both;
-}
 span{
   font-size: 16px;
   padding: 3px;
