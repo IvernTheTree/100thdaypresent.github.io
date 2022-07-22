@@ -431,13 +431,6 @@ input::before {
     transition: all .3s ease-in-out 0s;
     z-index: -2;
   }
-  .input:hover, .input:focus {
-    color: #ffffff;
-    transform: translateY(-6px);
-  }  
-  input:hover::before, input:focus::before {
-    opacity: 1;
-  }
   input::after {
     content: '';
     width: 30px; height: 30px;
@@ -461,7 +454,7 @@ input::before {
 }
 
 span{
-  font-size: 14px;
+  font-size: 20px;
   padding: 3px;
   color: #f7cac9;
   display: none;
