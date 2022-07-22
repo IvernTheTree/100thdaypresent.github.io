@@ -401,14 +401,14 @@ input{
   color: #FFFFFF;
   background: none;  /* fallback for old browsers */
   border: 1px solid white;
-  border-radius: 50px;
+  border-radius: 5px;
   box-shadow: 12px 12px 24px rgba(224, 224, 224, 0.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
   position: relative;
   padding: 10px;
-  top: 55px;
+  top: 20px;
   left: 210px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
