@@ -10,13 +10,10 @@ const FormInput = (props) => {
     const checking =(e) =>{
     var check = e.target.value;
     if (check == 160422){
-        alert ('hello')
-    }
-    };
-    function showHideButton(){
         websiteButton = document.querySelector(".wrap");
         websiteButton.classList.remove("hide");
-      }
+    }   
+    };
     return(
         <div className="formInput">
             <input {...inputProps} onChange={onChange} onBlur={handleFocus} onBlurCapture={checking} focused={focused.toString()}/>

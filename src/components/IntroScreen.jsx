@@ -57,7 +57,6 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <button onClick={window['showHideButton']}>alert</button>
           <form>
             {inputs.map((input) => (
             <FormInput defaultValue="Ivy" key = {input.id} {...input} value = {values[input.name]} onChange={onChange}/>
