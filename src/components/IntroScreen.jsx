@@ -9,6 +9,7 @@ const Hero = () => {
     return(
         <div>
         <div className="heroContainer">
+
           <div className="videoContainer2">
             <ReactPlayer
               className="react-player"
