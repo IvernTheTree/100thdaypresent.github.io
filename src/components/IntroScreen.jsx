@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom';
 
 
 let websiteButton = document.querySelector(".wrap")
-function showHideButton(){
+const showHideButton = () => {
     websiteButton.classList.toggle("hide");
+    alert ("hello world")
 }
     
 
