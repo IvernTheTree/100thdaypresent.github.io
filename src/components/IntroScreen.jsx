@@ -22,10 +22,6 @@ const Hero = () => {
         maxlength: 6,
         required: true,
       },
-      {
-        name:"pass",
-        values: "160422",
-      }
     ];
 
     const onChange = (e) => {
