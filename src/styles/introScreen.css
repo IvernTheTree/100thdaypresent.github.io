@@ -408,7 +408,7 @@ input{
   outline: none;
   position: relative;
   padding: 10px;
-  top: 375px;
+  top: 355px;
   left: 230px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -425,7 +425,7 @@ span{
   padding: 3px;
   color: #f7cac9;
   font-family: 'Montserrat', sans-serif;
-  top: 425px;
+  top: 375px;
   left: 250px;
   position: relative;
   display: none;
