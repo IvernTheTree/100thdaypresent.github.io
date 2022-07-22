@@ -3,8 +3,9 @@ import ReactPlayer from "react-player";
 import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
-import { Helmet } from "react-helmet";
+import { Suspense } from "react";
 
+const OtherComponent = React.lazy(()  => import('./PasswordCode'));
 
 const Hero = () => {
     return(
@@ -38,11 +39,11 @@ const Hero = () => {
             <div className="bubble3"></div>
           </div>
           <section class="wrap">
-            <>
-          <Helmet>
-              <script src="/PasswordCode" type="module"></script>
-            </Helmet>
-            </>
+          <div>
+            <Suspense fallback={<div>Loading...</div>}>
+              <OtherComponent />
+            </Suspense>
+          </div>
             <Link to="/music">
                 <button class="button">Start Listening</button>
             </Link>         
