@@ -406,7 +406,7 @@ input{
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
-  position: relative;
+  position: absolute;
   padding: 10px;
   top: 350px;
   left: 230px;
