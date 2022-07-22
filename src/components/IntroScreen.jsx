@@ -4,7 +4,6 @@ import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
-import showHideButton from "./PasswordCode";
 
 
 const Hero = () => {
@@ -39,9 +38,11 @@ const Hero = () => {
             <div className="bubble3"></div>
           </div>
           <section class="wrap">
+            <>
           <Helmet>
               <script src="/PasswordCode" type="module"></script>
             </Helmet>
+            </>
             <Link to="/music">
                 <button class="button">Start Listening</button>
             </Link>         
