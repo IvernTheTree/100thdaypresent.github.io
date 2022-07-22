@@ -4,6 +4,7 @@ import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
+import showHideButton from "./script";
 
 const Hero = () => {
     return(
@@ -38,7 +39,7 @@ const Hero = () => {
           </div>
           <section class="wrap">
           <Helmet>
-              <script type="module" src="../../src/components/script.jsx" async></script>
+              <script src="c:/Users/WELCOME/Documents/GitHub/100thDayPresent/src/components/script.jsx" async></script>
             </Helmet>
             <Link to="/music">
                 <button class="button">Start Listening</button>
