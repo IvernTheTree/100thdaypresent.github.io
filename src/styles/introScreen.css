@@ -419,7 +419,7 @@ input{
 span{
   font-size: 14px;
   padding: 3px;
-  color: #7ea0ba;
+  color: #f7cac9;
   display: none;
 }
 input:invalid[focused="true"] ~ span{

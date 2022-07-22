@@ -55,12 +55,12 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
+          <button onClick={window['showHideButton']}>alert</button>
           <form>
             {inputs.map((input) => (
             <FormInput key = {input.id} {...input} value = {values[input.name]} onChange={onchange}/>
             ))}
           </form>
-          <button onClick={window['showHideButton']}>alert</button>
           <section class="wrap">
             <Link to="/music">
                 <button class="button">Start Listening</button>
