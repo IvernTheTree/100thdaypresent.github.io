@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
-
+import FormInput from "./FormInput";
 
 const Hero = () => {
     return(
@@ -36,6 +36,9 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
+          <form>
+            <FormInput placeholder="Ngày đầu mình yêu là khi nào?"/>
+          </form>
           <button onClick={window['showHideButton']}>alert</button>
           <section class="wrap">
             <Link to="/music">
