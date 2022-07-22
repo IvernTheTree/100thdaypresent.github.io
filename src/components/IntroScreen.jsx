@@ -8,8 +8,7 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
     return(
         <div>
-        <div className="heroContainer">
-
+        <div className="heroContainer" onLoad={window['alertHello']}>
           <div className="videoContainer2">
             <ReactPlayer
               className="react-player"
@@ -37,7 +36,7 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <button onClick={window['alertHello']}>alert</button>
+          <button onClick={window['showHideButton']}>alert</button>
           <section class="wrap">
             <Link to="/music">
                 <button class="button">Start Listening</button>
