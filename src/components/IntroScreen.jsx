@@ -58,7 +58,7 @@ const Hero = () => {
           <button onClick={window['showHideButton']}>alert</button>
           <form>
             {inputs.map((input) => (
-            <FormInput defaultValue="Ivy" key = {input.id} {...input} value = {values[input.name]} onChange={onchange}/>
+            <FormInput defaultValue="Ivy" key = {input.id} {...input} value = {values[input.name]} onChange={onChange}/>
             ))}
           </form>
           <section class="wrap">
