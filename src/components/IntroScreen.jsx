@@ -7,8 +7,7 @@ import { Suspense } from "react";
 
 
 const Hero = () => {
-  const Hero2 = () =>{
-    return Hero2(
+    return(
         <div>
         <div className="heroContainer">
           <div className="videoContainer2">
@@ -38,7 +37,11 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-
+          <section class="wrap">
+            <Link to="/music">
+                <button class="button">Start Listening</button>
+            </Link>         
+          </section>
         </div>
         <ReactPlayer 
               className="react-player"
@@ -52,18 +55,9 @@ const Hero = () => {
               playing={true}
               loop={true}
             />
+
       </div> 
     )
-  }  
-  return Hero(
-    <div className="titleContainer">
-    <section class="wrap">
-    <Link to="/music">
-        <button class="button">Start Listening</button>
-    </Link>         
-  </section>
-  </div>
-  )
 }
 
 export default Hero
