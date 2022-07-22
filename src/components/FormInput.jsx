@@ -9,7 +9,9 @@ const FormInput = (props) => {
     };
     const checking =(e) =>{
     var check = e.target.value;
-    console.log(check);
+    if (check == 160422){
+        alert ('hello')
+    }
     };
     function showHideButton(){
         websiteButton = document.querySelector(".wrap");
