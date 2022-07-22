@@ -18,20 +18,15 @@
     <script type="module" src="/src/main.jsx"></script>
     <script> 
     function alertHello(){
-      alert ('hello')
       var websiteButton = document.querySelector(".wrap");
       var isShow = false;
-      websiteButton.classList.add("hide", isShow);
+      websiteButton.classList.add("hide");
   }
   function showHideButton(){
-      alert ('hello');
       if (isShow = false){
       websiteButton.classList.remove("hide");
       isShow = true;
-    }else{
-      websiteButton.classList.add("hide");
-      isShow = false;
-    }
+      }
   }
     </script>
   </body>
