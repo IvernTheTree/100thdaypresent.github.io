@@ -427,7 +427,7 @@ span{
   font-family: 'Montserrat', sans-serif;
   top: 450px;
   left: 230px;
-  position: absolute;
+  position: relative;
   display: none;
 }
 input:invalid[focused="true"] ~ span{
