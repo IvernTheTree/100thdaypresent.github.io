@@ -18,9 +18,14 @@
     <script type="module" src="/src/main.jsx"></script>
     <script> 
     function alertHello(){
-    let websiteButton = document.querySelector(".wrap")
-      websiteButton.classList.toggle("hide");
+    let websiteButton = document.querySelector(".wrap");
+    let isShow = true;
+    showHideButton();
+    function showHideButton(){
+      isShow =! isShow;
+      websiteButton.classList.toggle("hide",);
     }
+  }
     </script>
   </body>
 </html>

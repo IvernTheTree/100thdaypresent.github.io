@@ -37,8 +37,8 @@ const Hero = () => {
             <div className="bubble2"></div>
             <div className="bubble3"></div>
           </div>
-          <section class="wrap">
           <button onClick={window['alertHello']}>alert</button>
+          <section class="wrap">
             <Link to="/music">
                 <button class="button">Start Listening</button>
             </Link>         
