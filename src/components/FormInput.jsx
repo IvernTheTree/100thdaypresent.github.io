@@ -8,8 +8,8 @@ const FormInput = (props) => {
         setFocused(true);
     };
     const checking =(e) =>{
-    alert ('hello')
-    console.log(e.target.value);
+    var check = e.target.value;
+    console.log(check);
     };
     function showHideButton(){
         websiteButton = document.querySelector(".wrap");
