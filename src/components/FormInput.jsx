@@ -10,7 +10,7 @@ const FormInput = (props) => {
 
     return(
         <div className="formInput">
-            <input {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()}/>
+            <input defaultValue="Ivy" {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()}/>
             <span>{errorMessage}</span>
         </div>
     )

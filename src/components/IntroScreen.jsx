@@ -11,7 +11,6 @@ const Hero = () => {
     });
     const inputs = [
       {
-        defaultValue:"Ivy",
         id:1,
         name:"password",
         type:"text",
