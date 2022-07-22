@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
@@ -6,6 +6,25 @@ import { Link } from 'react-router-dom';
 import FormInput from "./FormInput";
 
 const Hero = () => {
+    const[values,setValues] = useState({
+      password:"",
+    });
+    const inputs = [
+      {
+        id:1,
+        name:"password",
+        type:"text",
+        placeholder:"Ngày đầu mình yêu là khi nào?",
+        errorMessage:"Ghi cho đúng, troll là anh chém!",
+        pattern: "^.*[0-9].*{1,6}$",
+        required: true,
+      }
+    ];
+
+    const onChange = (e) => {
+      setValues({ ...values,[e.target.name]: e.target.value });
+    };
+
     return(
         <div>
         <div className="heroContainer">
@@ -37,7 +56,9 @@ const Hero = () => {
             <div className="bubble3"></div>
           </div>
           <form>
-            <FormInput placeholder="Ngày đầu mình yêu là khi nào?"/>
+            {inputs.map((input) => (
+            <FormInput key = {input.id} {...input} value = {values[input.name]} onChange={onchange}/>
+            ))}
           </form>
           <button onClick={window['showHideButton']}>alert</button>
           <section class="wrap">
