@@ -4,7 +4,7 @@ import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
-import showHideButton from "./script";
+
 
 const Hero = () => {
     return(
