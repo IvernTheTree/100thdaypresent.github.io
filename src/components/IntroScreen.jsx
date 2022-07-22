@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import "../styles/introScreen.css"
 import logo from '../images/logo.jpeg'
 import { Link } from 'react-router-dom';
-import showHideButton from "./passwordScript";
+
 
 const Hero = () => {
     return(
