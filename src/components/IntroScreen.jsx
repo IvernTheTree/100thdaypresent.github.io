@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="titleContainer">
-          <img className="heroLogo" src={logo} alt="" />
+          <img className="heroLogo" src={logo} alt="" onLoad={window['alertHello']}/>
           <h1 className="tracking-in-expand-fwd">StudyBeats</h1>
           <h3 className="subTitle"> Món quà dành cho thiên thần của anh <br></br> Nguyễn Ngọc Minh Phương </h3>
           <div class="note-position-1 note-amination">&#9835;</div>
@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="bubble3"></div>
           </div>
           <button onClick={window['showHideButton']}>alert</button>
-          <section class="wrap" onLoad={window['alertHello']}>
+          <section class="wrap">
             <Link to="/music">
                 <button class="button">Start Listening</button>
             </Link>         
