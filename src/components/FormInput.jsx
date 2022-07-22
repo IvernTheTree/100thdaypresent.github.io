@@ -13,6 +13,8 @@ const FormInput = (props) => {
         alert ('Chờ một chút món quà sẽ xuất hiện')
         var websiteButton = document.querySelector(".wrap");
         websiteButton.classList.remove("hide");
+    }else{
+        handleFocus
     }   
     };
     return(
