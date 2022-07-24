@@ -122,7 +122,7 @@ const RadioStations = ({
           className="station"
         >
           <img className="triangle" src={triangle} alt="" />
-          <span> Lofi Girl </span>
+          Lofi Girl 
         </motion.div>
       </motion.div>
 
@@ -134,7 +134,7 @@ const RadioStations = ({
           className="station"
         >
           <img className="triangle" src={triangle} alt="" />
-          <span> Nice Guys </span>
+          Nice Guys 
         </motion.div>
       </motion.div>
 

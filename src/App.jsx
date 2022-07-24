@@ -234,7 +234,7 @@ function App() {
 
   const animeVibe = () => {
     setVideo("//www.youtube.com/embed/5B7Rsw0L2r8?autoplay=1&mute=1&start=0");
-    setStationName("AnimeVibe <3");
+    setStationName("AnimeVibe");
     setYoutubeChannal("https://www.youtube.com/c/AnimeVibe");
     setLivestream(
       "https://www.youtube.com/watch?v=WDXPJWIgX-o&ab_channel=nostalgic"
