@@ -16,7 +16,7 @@ const Hero = () => {
         type:"text",
         placeholder:"Ngày đầu mình yêu là khi nào?",
         errorMessage:"Ghi cho đúng, troll là anh chém!",
-        pattern: "[0-9]{1,6}$",
+        pattern: "160422",
         maxlength: 6,
         required: true,
       },
