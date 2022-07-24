@@ -66,7 +66,7 @@ function App() {
 
   const LofiGirlVideo = () => {
     setVideo("//www.youtube.com/embed/TURbeWK2wwg?autoplay=1&mute=1&start=1");
-    setStationName("LofiGirl");
+    setStationName("Lofi Girl");
     setYoutubeChannal(
       "https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow"
     );

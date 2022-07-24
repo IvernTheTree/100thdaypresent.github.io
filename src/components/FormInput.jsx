@@ -6,7 +6,6 @@ const FormInput = (props) => {
     const {onChange, errorMessage, id, ...inputProps} = props;
     const handleFocus = (e) => {
         setFocused(true);
-        alert ('hi')
     };
     const checking =(e) =>{
     var check = e.target.value;
