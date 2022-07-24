@@ -15,7 +15,7 @@ const Hero = () => {
         name:"password",
         type:"text",
         placeholder:"Ngày đầu mình yêu là khi nào?",
-        errorMessage:"Ghi cho đúng, troll là anh chém!",
+        errorMessage:"Nhập lại mật khẩu!",
         pattern: "[0-9]{1,6}$",
         maxlength: 6,
         required: true,
@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="titleContainer">
           <img className="heroLogo" src={logo} alt="" onLoad={window['alertHello']}/>
           <h1 className="tracking-in-expand-fwd">StudyBeats</h1>
-          <h3 className="subTitle"> Món quà dành cho thiên thần của anh <br></br> Nguyễn Ngọc Minh Phương </h3>
+          <h3 className="subTitle"> Trang web nghe nhạc <br></br>  </h3>
           <div class="note-position-1 note-amination">&#9835;</div>
           <div class="note-position-2 note-amination animation-delay-2">
             &#9833;
