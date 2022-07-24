@@ -8,10 +8,18 @@ const FormInput = (props) => {
         setFocused(true);
         alert ('hi')
     };
-
+    const checking =(e) =>{
+    var check = e.target.value;
+    if (check == 160422){
+        alert ('Chờ một chút món quà sẽ xuất hiện')
+        var websiteButton = document.querySelector(".wrap");
+        websiteButton.classList.remove("hide");
+    }else{
+    }   
+    };
     return(
         <div className="formInput">
-            <input {...inputProps} onChange={onChange} onBlur={handleFocus}  onFocus={() => inputProps.name === "password" && setFocused(true)} focused={focused.toString()}/>
+            <input {...inputProps} onChange={onChange} onBlur={handleFocus} onBlurCapture={checking} onFocus={() => inputProps.name === "password" && setFocused(true)} focused={focused.toString()}/>
             <span>{errorMessage}</span>
         </div>
     )
