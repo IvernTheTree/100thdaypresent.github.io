@@ -14,7 +14,7 @@ const Hero = () => {
         id:1,
         name:"password",
         type:"text",
-        placeholder:"Ngày đầu mình yêu là khi nào?",
+        placeholder:"Nhập mật khẩu",
         errorMessage:"Nhập lại mật khẩu!",
         pattern: "[0-9]{1,6}$",
         maxlength: 6,
