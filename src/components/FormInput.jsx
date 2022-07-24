@@ -6,7 +6,7 @@ const FormInput = (props) => {
     const {onChange, errorMessage, id, ...inputProps} = props;
     const handleFocus = (e) => {
         setFocused(true);
-        alert ('hello');
+        alert ('hi')
     };
     const checking =(e) =>{
     var check = e.target.value;
@@ -15,7 +15,7 @@ const FormInput = (props) => {
         var websiteButton = document.querySelector(".wrap");
         websiteButton.classList.remove("hide");
     }else{
-        handleFocus
+
     }   
     };
     return(
