@@ -15,12 +15,11 @@ const FormInput = (props) => {
         var websiteButton = document.querySelector(".wrap");
         websiteButton.classList.remove("hide");
     }else{
-
     }   
     };
     return(
         <div className="formInput">
-            <input {...inputProps} onChange={onChange} onBlur={handleFocus} onBlurCapture={checking} focused={focused.toString()}/>
+            <input {...inputProps} onChange={onChange} onBlur={handleFocus} onBlurCapture={checking} onFocus={() => inputProps.name === "password" && setFocused(true)} focused={focused.toString()}/>
             <span>{errorMessage}</span>
         </div>
     )
