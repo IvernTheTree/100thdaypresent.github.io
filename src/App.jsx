@@ -217,13 +217,13 @@ function App() {
   };
 
   const NiceGuys = () => {
-    setVideo("//www.youtube.com/embed/3n1aC2TYXIA?autoplay=1&mute=1&start=1");
+    setVideo("https://www.youtube.com/embed/dQiYnFQX3Qg?start=21");
     setStationName("Nice Guys");
     setYoutubeChannal(
-      "https://www.youtube.com/channel/UCMmt12UKW571UWtJAgWkWqg"
+      "https://www.youtube.com/channel/UCkXo4uZcFUXaJWTDTmU3WnA"
     );
     setLivestream(
-      "https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys"
+      "https://www.youtube.com/watch?v=cYXD5avTnYQ&t=3026s"
     );
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
