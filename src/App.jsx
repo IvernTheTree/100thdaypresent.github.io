@@ -223,7 +223,7 @@ function App() {
       "https://www.youtube.com/channel/UCkXo4uZcFUXaJWTDTmU3WnA"
     );
     setLivestream(
-      "https://www.youtube.com/watch?v=cYXD5avTnYQ&t=3026s"
+      "https://www.youtube.com/watch?v=cYXD5avTnYQ&t=0s"
     );
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
